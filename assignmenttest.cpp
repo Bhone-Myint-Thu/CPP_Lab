@@ -196,42 +196,42 @@ int main() {
     cout << usd << " USD is equal to " << eur << " EUR." << endl;
     return 0;
 }*/
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-class CurrencyConverter {
-  private:
-    double usd;
+// class CurrencyConverter {
+//   private:
+//     double usd;
 
-  public:
-    CurrencyConverter(double usd) {
-        this->usd = usd;
-    }
+//   public:
+//     CurrencyConverter(double usd) {
+//         this->usd = usd;
+//     }
 
-    double convertToEur() {
-        return usd * 0.82;
-    }
+//     double convertToEur() {
+//         return usd * 0.82;
+//     }
 
-    double convertToInr() {
-        return usd * 74.16;
-    }
-};
+//     double convertToInr() {
+//         return usd * 74.16;
+//     }
+// };
 
-int main() {
-    double usd;
-    cout << "Enter amount in USD: ";
-    cin >> usd;
+// int main() {
+//     double usd;
+//     cout << "Enter amount in USD: ";
+//     cin >> usd;
 
-    CurrencyConverter converter(usd);
+//     CurrencyConverter converter(usd);
 
-    double eur = converter.convertToEur();
-    double inr = converter.convertToInr();
+//     double eur = converter.convertToEur();
+//     double inr = converter.convertToInr();
 
-    cout << usd << " USD is equal to " << eur << " EUR" << endl;
-    cout << usd << " USD is equal to " << inr << " INR" << endl;
+//     cout << usd << " USD is equal to " << eur << " EUR" << endl;
+//     cout << usd << " USD is equal to " << inr << " INR" << endl;
 
-    return 0;
-}
+//     return 0;
+// }
 
 
 
